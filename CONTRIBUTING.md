@@ -24,17 +24,13 @@ If you want to request a feature or report a bug, please use the following templ
 ## Gem version:
 
 Rescuable version: [Add gem version here]
-
-## Report
-
-Visit <http://user-agent.herokuapp.com> and paste the URL here.
 ```
 
 ## Writing code
 
 Once you've made your great commits (include tests, please):
 
-1. [Fork](http://help.github.com/forking/) browser
+1. [Fork](http://help.github.com/forking/) the [original repository](http://github.com/dhyegofernando/rescuable)
 2. Create a topic branch - `git checkout -b my_branch`
 3. Push to your branch - `git push origin my_branch`
 4. [Create an Issue](http://github.com/dhyegofernando/rescuable/issues) with a link to your branch
