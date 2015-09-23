@@ -1,0 +1,5 @@
+en:
+  rescuable:
+    errors:
+      messages:
+        default: Something went wrong
