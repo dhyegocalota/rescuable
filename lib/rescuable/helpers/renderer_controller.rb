@@ -1,5 +1,5 @@
 module Rescuable
-  module Rails
+  module Helpers
     module RendererController
       extend ActiveSupport::Concern
 
