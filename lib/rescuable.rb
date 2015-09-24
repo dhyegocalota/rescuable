@@ -9,6 +9,16 @@ module Rescuable
   autoload :Error
   autoload :RecordError
   autoload :Version
+
+  module Helpers
+    extend ActiveSupport::Autoload
+
+    autoload :RendererController
+  end
 end
 
-require 'rescuable/engine'
+if defined?(::Rails)
+  require 'rescuable/rails'
+else
+  I18n.load_path += Dir.glob(File.dirname(__FILE__) + '/../config/locales/*.{rb,yml}')
+end
